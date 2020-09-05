@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="style1.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="calc">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="text-box" id="result" disabled />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="7" onclick="displayit('7')" />
+                </td>
+                <td>
+                    <input type="button" value="8" onclick="displayit('8')" />
+                </td>
+                <td>
+                    <input type="button" value="9" onclick="displayit('9')" />
+                </td>
+                <td>
+                    <input type="button" value="C" onclick="clr()" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="4" onclick="displayit('4')" />
+                </td>
+                <td>
+                    <input type="button" value="5" onclick="displayit('5')" />
+                </td>
+                <td>
+                    <input type="button" value="6" onclick="displayit('6')" />
+                </td>
+                <td>
+                    <input type="button" class="cross" value="X" onclick="displayit('X')" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" onclick="displayit('1')" />
+                </td>
+                <td>
+                    <input type="button" value="2" onclick="displayit('2')" />
+                </td>
+                <td>
+                    <input type="button" value="3" onclick="displayit('3')" />
+                </td>
+                <td>
+                    <input type="button" value="/" onclick="displayit('/')" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="." onclick="displayit('.')" />
+                </td>
+                <td>
+                    <input type="button" value="0" onclick="displayit('0')" />
+                </td>
+                <td>
+                    <input type="button" value="%" onclick="displayit('%')" />
+                </td>
+                <td>
+                    <input type="button" value="*" onclick="displayit('*')" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="+" onclick="displayit('+')" />
+                </td>
+                <td>
+                    <input type="button" value="-" onclick="displayit('-')" />
+                </td>
+                <td colspan="2">
+                    <input type="button" value="=" onclick="solved()" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
